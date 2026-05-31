@@ -1,6 +1,12 @@
-let num1 = null;
-let num2 = null;
+let num1 = "";
+let num2 = "";
 let operator = "";
+
+const operationDisplay = document.querySelector(".operation-display");
+const numberButtons = document.querySelector(".number-button-container");
+const operatorButtons = document.querySelector(".operator-container");
+const resetButton = document.querySelector("button#reset");
+
 function operate(num1, operator, num2) {
     switch (operator) {
         case "+":
