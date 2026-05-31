@@ -67,8 +67,8 @@ button {
     padding: 32px;
 }
 
-button#zero {
-    flex-grow: 2;
+button#equal {
+    background-color: rgb(110, 167, 26);
 }
 
 .operator-container button {
